@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.infostyle{
+padding:5px;
+background-color:#63bff8;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+height:650px;
+background-color:#a2e2ff;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div class="infostyle">
+<h2 align="center">Admission Form</h2>
+</div>
+<div class="row">
+  <div class="column">
+  <form>
+  <br> <h3>
+    <label for="uname"><b>First Name : </b></label>
+    <input type="text" placeholder="Enter your First Name" name="uname" required>
+    <br><p> 
+    <label for="ulname"><b>Last Name : </b></label>
+    <input type="text" placeholder="Enter your Last Name" name="uname" required> 
+    <br> 
+    <p>Gender: 
+      <select name ="dropdown">
+          <option value ="-" selected> - </option>
+          <option value ="Male"> Male </option>
+          <option value ="Female"> Female </option>
+        </select></p>
+    <label for="ujage"><b> Enter your Age : </b></label>
+    <input type="text" placeholder="Enter your Age" name="ujage" required>
+    <br> 
+    <br> 
+    <label>Date of birth : </label>
+    <input type ="datetime-local" name =" "> 
+    <br></p>
+    Select your Optional Subjects :<br> 
+    <input type = "checkbox" name = "French" value = "on"> French <br>
+    <input type = "checkbox" name = "Spanish" value = "on"> Spanish <br>
+    <input type = "checkbox" name = "German" value = "on"> German <br>
+    <input type = "checkbox" name = "Chinese" value = "on"> Chinese <br>
+    </p>
+    Select Sports Intrested In :<br> 
+    <input type = "checkbox" name = "Football" value = "on"> Football <br>
+    <input type = "checkbox" name = "Cricket" value = "on"> Cricket <br>
+    <input type = "checkbox" name = "Volleyball" value = "on"> Volleyball <br>
+    <input type = "checkbox" name = "Badminton" value = "on"> Badminton <br>
+    <p>Upload Passport Size Photo :<br> 
+    <input type ="file" name ="upload_file" accept ="pdf/*"> 
+    <br></p>
+    <input type = "submit" name =" submit " value ="Submit"/>
+    <input type="reset" name="reset" value="Reset"/> 
+    </form>
+  </div>
+  <div class="column">
+    <img src= "/Users/aahan/Desktop/pcpf_mproj\welcome123.png" height="650" width="100%">  
+</div>
+</div>
+</body>
+</html>

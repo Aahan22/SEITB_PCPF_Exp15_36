@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: black;
+}
+.split {
+  height: 53%;
+  position:absolute;
+  z-index: 1;
+  top: 30;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.content{
+background:#E0F2F7;
+width="50%";
+padding:70px;
+margin:100px auto;
+}
+.left {
+  left: 0;
+padding-left:10px;
+  width: 59%;
+  background-color:#87CEFA;
+}
+
+.right {
+  padding-top: 20px;
+  right: 0;
+height:53%;
+  width: 39%;
+overflow:hidden;
+  background-image:url(engineer.jpg);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.overlap{
+overflow:hidden;
+padding-top:440px;
+}
+
+</style>
+</head>
+<body>
+<div style="background-color:#a2e2ff;">
+<div style="color:#0c0caf;">
+  <p style="text-align:center" ><img src="/Users/aahan/Desktop/pcpf_mproj/ndslogo.png" ; width="80" height="80";  >
+    <br>
+    <h1 style="text-align:center">Notre Dame School</h1>
+    </div>
+    <p style="text-align:center"> Tarkhad, Vasai west, Thane, Mumbai 401 201
+    <br>
+     <b>Phone No. </b> 0250-2313155, +91 8010564635   <b> Email:</b>  ndsvasai@gmail.com    <b>Website:<a href="https://www.notredameschoolvasai.in/">www.notredameschoolvasai.in</a></b></p>
+    </p>
+</div>
+    <div class="split left">
+   <p> <b><h1 style="color:#2525db;">*ABOUT N.D.S.*</h1></b>  <br>
+    Notre Dame School, Vasai is a Catholic institution founded in June, 2004. Notre Dame School Prepares students for the CBSE Examinations (Central Board of Secondary Education - All India). English is the medium of instruction. Marathi and Hindi are taught as second and third languages.<p>
+
+      Education at Notre Dame School has for its aim to train young people for unselfish leadership, so that the students educated at Notre Dame will be able to:
+<p>   -Change the Oppressive structures of society by standing for justice and human rights.
+<p>   -Direct their lives to God in faith and to assist their fellow citizens in directing their lives to God, by helping, healing, reconciling, and taking a firm stand on moral principles of honesty, integrity, hard work and freedom.
+  <p>    -To guide the students to develop those values that not only enrich their personality but which will help bring about a change in the present set-up of society where there will be equality and justice for all. Therefore the following values re of prime importance.
+    </p> 
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <div class="content"> 
+        <h3 align="center"> Admission Registration Form </h3>
+    <form action="/Users/aahan/Desktop/pcpf_mproj\login.html" method="post">
+             <label for="fname" align="center"> <b> First Name </b> </label> <br/> 
+             <input type="text" name="fname"> <br/>
+             <label for="lname"> <b> Last Name </b> </label> <br/> 
+             <input type="text" name="lname"> <br/>
+             <label for="email"> <b> Email </b> </label> <br/>
+             <input type="email" name="email"> <br/>
+             <label for="passd"> <b> Enter Password </b> </label> <br/>
+             <input type="password" name="passd"> <br/>
+             <label for="rpassd"> <b> Retype Password </b> </label> <br/>
+             <input type="password" name="rpassd"> <br/>
+             <br>         
+             <button onclick="alert('Registration Complete!'), onclick="myOnClickFn()">Submit</button>         
+             <input type="reset" name="reset" value="Reset"/></p>
+    </form>
+    <a href="/Users/aahan/Desktop/pcpf_mproj\login.html">Click here to Sign in</a>
+    </div>
+    </div>
+</div>
+<div class="overlap">
+<img class="slides" src="building.jpg" height="900" width=100%>
+</div>
+</body>
+</html>
